@@ -1,0 +1,15 @@
+<p>query-test1 {{hit_count}} works!</p>
+
+<button (click)="hit_count=hit_count+1;">Hit</button>
+
+<br><br><br>
+
+{{resp | json}}
+
+<button (click)="assignRandomParam()">Generate</button>
+
+<br><br><br>
+
+{{query_resp | json}}
+
+<button (click)="assignRandomQueryParam()">Generate</button>
